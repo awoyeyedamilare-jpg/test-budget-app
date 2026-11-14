@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Rawoyeye Realties offers property sales, rentals and real estate opportunities in Lagos, Nigeria.">
+
+    <meta name="author" content="Rawoyeye Realties">
+
+    <meta name="description" content="Rawoyeye Realties offers property sales, rentals and real estate opportunities.">
+
+<meta name="author" content="Rawoyeye Realties">
+
+    <!-- Website URL -->
+    <meta property="og:url" content="https://rawoyeyerealties.org">
+    <link rel="canonical" href="https://rawoyeyerealties.org/">
+
+    <meta name="theme-color" content="#10251f">
+
+
+    <title>Rawoyeye Realties | Premium Real Estate</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Connect JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="container navbar">
+
+        <a href="#home" class="logo">
+            RAWOYEYE
+            <span>REALTIES</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#contact" class="nav-button">Contact Us</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- HERO SECTION -->
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="subtitle">WELCOME TO RAWOYEYE REALTIES</p>
+
+        <h1>
+            Discover Your
+            <span>Dream Property</span>
+        </h1>
+
+        <p>
+            Your trusted destination for exceptional
+            real estate opportunities, property sales,
+            rentals and investment guidance.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#properties" class="btn">
+                Explore Properties
+            </a>
+
+            <a href="#contact" class="btn-outline">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROPERTY SEARCH -->
+<section class="search-section">
+
+    <div class="container">
+
+        <h2>Find Your Perfect Property</h2>
+
+        <form id="searchForm">
+
+            <select id="propertyType">
+                <option value="all">All Properties</option>
+                <option value="sale">For Sale</option>
+                <option value="rent">For Rent</option>
+            </select>
+
+            <select id="propertyLocation">
+                <option value="all">Any Location</option>
+                <option value="Lekki">Lekki</option>
+                <option value="Ikoyi">Ikoyi</option>
+                <option value="Ikeja">Ikeja</option>
+                <option value="Victoria Island">Victoria Island</option>
+            </select>
+
+            <button type="submit" class="btn">
+                Search Property
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+                alt="Beautiful modern residential property">
+        </div>
+
+        <div class="about-content">
+
+            <p class="subtitle">ABOUT OUR COMPANY</p>
+
+            <h2>
+                Making Property
+                Dreams a Reality
+            </h2>
+
+            <p>
+                Rawoyeye Realties is focused on helping
+                individuals, families and investors explore
+                real estate opportunities.
+
+                We believe that finding the right property
+                should be an informed and rewarding experience.
+            </p>
+
+            <p>
+                From residential properties to rental
+                opportunities, we aim to provide attentive
+                service and clear communication.
+            </p>
+
+            <a href="#contact" class="btn">
+                Learn More
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROPERTIES SECTION -->
+<section class="section properties" id="properties">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="subtitle">EXPLORE OUR LISTINGS</p>
+
+            <h2>Featured Properties</h2>
+
+            <p>
+                Discover property opportunities
+                that match your lifestyle and needs.
+            </p>
+
+        </div>
+
+        <div class="property-grid" id="propertyGrid">
+
+            <!-- PROPERTY 1 -->
+            <article class="property-card"
+                     data-type="sale"
+                     data-location="Lekki">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern detached house">
+
+                <div class="property-info">
+
+                    <span class="tag">For Sale</span>
+
+                    <h3>Luxury Family Residence</h3>
+
+                    <p>Lekki, Lagos</p>
+
+                    <p>4 Bedrooms | 4 Bathrooms</p>
+
+                    <a href="#contact"
+                       class="property-link"
+                       data-property="Luxury Family Residence">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROPERTY 2 -->
+            <article class="property-card"
+                     data-type="rent"
+                     data-location="Victoria Island">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern apartment">
+
+                <div class="property-info">
+
+                    <span class="tag">For Rent</span>
+
+                    <h3>Modern City Apartment</h3>
+
+                    <p>Victoria Island, Lagos</p>
+
+                    <p>2 Bedrooms | 2 Bathrooms</p>
+
+                    <a href="#contact"
+                       class="property-link"
+                       data-property="Modern City Apartment">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROPERTY 3 -->
+            <article class="property-card"
+                     data-type="sale"
+                     data-location="Ikoyi">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
+                    alt="Luxury residential property">
+
+                <div class="property-info">
+
+                    <span class="tag">For Sale</span>
+
+                    <h3>Contemporary Luxury Home</h3>
+
+                    <p>Ikoyi, Lagos</p>
+
+                    <p>3 Bedrooms | 3 Bathrooms</p>
+
+                    <a href="#contact"
+                       class="property-link"
+                       data-property="Contemporary Luxury Home">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <p id="noResults" hidden>
+            No matching properties found. Contact us for assistance.
+        </p>
+
+        <p class="disclaimer">
+            Property photographs and listings are examples.
+            Replace with verified available properties before publishing.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES SECTION -->
+<section class="section services" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="subtitle">WHAT WE OFFER</p>
+
+            <h2>Our Real Estate Services</h2>
+
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <h3>Property Sales</h3>
+                <p>
+                    Explore residential and commercial
+                    property opportunities.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Property Rentals</h3>
+                <p>
+                    Find suitable residential and
+                    commercial rental options.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Property Investment</h3>
+                <p>
+                    Discuss real estate opportunities
+                    and investment considerations.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Property Consultation</h3>
+                <p>
+                    Get guidance when exploring
+                    property options and transactions.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="section contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="subtitle">GET IN TOUCH</p>
+
+            <h2>Let's Find Your Next Property</h2>
+
+            <p>
+                Have a question or looking for a property?
+                Contact Rawoyeye Realties today.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-details">
+
+                <h3>Contact Information</h3>
+
+                <p><strong>Business:</strong> Rawoyeye Realties</p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:awoyeyedamilare@gmail.com">
+                        awoyeyedamilare@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:+2349073855015">
+                        09073855015
+                    </a>
+                </p>
+
+                <p><strong>Location:</strong> Lagos, Nigeria</p>
+
+                <a class="btn whatsapp"
+                   href="https://wa.me/2349073855015"
+                   target="_blank"
+                   rel="noopener">
+                    Chat on WhatsApp
+                </a>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Full Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email Address"
+                    required>
+
+                <select id="interest">
+
+                    <option value="Property Purchase">
+                        Property Purchase
+                    </option>
+
+                    <option value="Property Rental">
+                        Property Rental
+                    </option>
+
+                    <option value="Investment">
+                        Investment
+                    </option>
+
+                    <option value="General Enquiry">
+                        General Enquiry
+                    </option>
+
+                </select>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Enquiry
+                </button>
+
+                <p id="formStatus" aria-live="polite"></p>
+
+                <small>
+                    Your email application will open with
+                    your enquiry prepared for sending.
+                </small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container">
+
+        <h2>RAWOYEYE REALTIES</h2>
+
+        <p>
+            Your property. Your future. Our commitment.
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:awoyeyedamilare@gmail.com">
+                awoyeyedamilare@gmail.com
+            </a>
+        </p>
+
+        <p>
+            Phone:
+            <a href="tel:+2349073855015">
+                09073855015
+            </a>
+        </p>
+
+        <p>
+            © <span id="year"></span>
+            Rawoyeye Realties. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
